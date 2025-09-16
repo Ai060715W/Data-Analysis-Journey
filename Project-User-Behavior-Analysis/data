@@ -1,0 +1,14 @@
+Data-Analysis-Journey/
+│
+├── Project-User-Behavior-Analysis/
+│   ├── data/
+│   │   └── (我们会把生成的数据文件放在这里)
+│   ├── notebooks/
+│   │   ├── 01_data_generation.ipynb
+│   │   ├── 02_data_cleaning.ipynb
+│   │   └── 03_eda_analysis.ipynb
+│   ├── src/
+│   │   └── (可选：存放可重用的Python脚本)
+│   └── README.md
+│
+└── README.md
