@@ -1,0 +1,17 @@
+数据分析报告
+==================================================
+
+USER_ACTIVITY:
+  avg_dau: 983.5483870967741
+  peak_hour: 22
+
+CONTENT_PREFERENCE:
+  most_popular_category: 都市
+  category_longest_read: 玄幻
+
+USER_VALUE:
+  num_high_value_users: 333
+  tier_distribution: {'Low': 334, 'Medium': 333, 'High': 333}
+
+ACTION_TYPES:
+  action_distribution: {'click': 89943, 'read': 52567, 'finish': 7490}
