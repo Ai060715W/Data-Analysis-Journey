@@ -29,9 +29,16 @@ def generate_user_behavior_data():
     # 生成用户数据
     user_ids = [f'user_{i:04d}' for i in range(1, num_users+1)]
 
-    # 生成时间序列（过去30天）
+    # 生成时间序列（过去30天） - 修复了timedelta参数类型问题
     base_date = datetime.now() - timedelta(days=days)
-    timestamps = [base_date + timedelta(days=i, seconds=j) for i in range(days) for j in np.random.randint(0, 86400, size=events_per_day)]
+    timestamps = []
+    for i in range(days):
+        # 生成每天的随机秒数，并转换为Python整数
+        seconds_list = np.random.randint(0, 86400, size=events_per_day)
+        for j in seconds_list:
+            # 将numpy.int32转换为Python int
+            timestamp = base_date + timedelta(days=i, seconds=int(j))
+            timestamps.append(timestamp)
 
     # 确保数据量一致
     num_records = len(timestamps)
