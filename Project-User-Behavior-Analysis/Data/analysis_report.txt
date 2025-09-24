@@ -2,8 +2,8 @@
 ==================================================
 
 USER_ACTIVITY:
-  avg_dau: 983.5483870967741
-  peak_hour: 22
+  avg_dau: 967.1612903225806
+  peak_hour: 0
 
 CONTENT_PREFERENCE:
   most_popular_category: 都市
