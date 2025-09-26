@@ -121,7 +121,7 @@ Project-User-Behavior-Analysis/
 │   │   ├── category_popularity.png
 │   │   ├── category_read_time.png
 |   |   └── action_type_pie.png
-|   └── analysis_report.txt
+|   └── analysis_report.md
 │   ├── user_read_time_dist.png
 │   └── action_type_pie.png       
 ├── src/
