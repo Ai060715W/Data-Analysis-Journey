@@ -52,8 +52,8 @@
 ### 3. 用户价值分层
 **数据发现**：
 - **高价值用户**: 333人（33.3%）
-- **中层用户**: 333人（33.3%）
-- **普通用户**: 334人（33.3%）
+- **中层用户**:   333人（33.3%）
+- **普通用户**:   334人（33.3%）
 
 **业务建议**：
 - 💎 **分层运营**:
@@ -120,7 +120,7 @@ Project-User-Behavior-Analysis/
 │   │   ├── hourly_activity.png
 │   │   ├── category_popularity.png
 │   │   ├── category_read_time.png
-|   |   └── action_type_pie.png
+|   │   └── action_type_pie.png
 |   └── analysis_report.md
 │   ├── user_read_time_dist.png
 │   └── action_type_pie.png       
@@ -146,8 +146,8 @@ python main.py
 ```
 
 ### 查看结果
-- 数据报告: `data/analysis_report.txt`
-- 可视化图表: `data/figures/`
+- 数据报告: `data/analysis_report.md`
+- 可视化图表: `data/#figures/`
 - 清洗后数据: `data/user_behavior_data_clean.csv`
 
 ## 🎯 预期业务价值
