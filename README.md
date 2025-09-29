@@ -71,7 +71,7 @@ Phase 3: 求职准备冲刺期
 
 🌐 Portfolio优化	
 1. 优化本仓库的README和导航。
-2. (可选) 使用 GitHub Pages 创建个人主页，可视化展示项目。
+2. 使用 GitHub Pages 创建个人主页，可视化展示项目。
 
 🧠 面试准备
 1. 复盘SQL和Python代码。
