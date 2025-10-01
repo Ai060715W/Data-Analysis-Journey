@@ -1,1 +1,48 @@
-
+{
+  "click_rates": {
+    "count": {
+      "control": 5076,
+      "treatment": 4924
+    },
+    "clicks": {
+      "control": 424,
+      "treatment": 531
+    },
+    "ctr": {
+      "control": 0.0835,
+      "treatment": 0.1078
+    }
+  },
+  "chi_square_test": {
+    "chi2_statistic": 16.818134668111213,
+    "p_value": 4.11382938991829e-05,
+    "degrees_of_freedom": 1,
+    "expected_frequencies": [
+      [
+        4591.242,
+        484.758
+      ],
+      [
+        4453.758,
+        470.242
+      ]
+    ]
+  },
+  "confidence_intervals": {
+    "difference": 0.02430881630892001,
+    "ci_lower": 0.012776575073161616,
+    "ci_upper": 0.03584105754467841,
+    "margin_of_error": 0.011532241235758396,
+    "relative_improvement": 0.29101781033980656
+  },
+  "power_analysis": {
+    "power": 0.9828,
+    "n_simulations": 5000,
+    "significant_detections": 4914
+  },
+  "effect_size": 0.0827798436036602,
+  "sample_sizes": {
+    "control": 5076,
+    "treatment": 4924
+  }
+}
