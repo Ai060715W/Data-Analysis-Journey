@@ -45,25 +45,25 @@ python src/main.py
 
 ```bash
 Project-AB-Testing/
-├── 📊 data/                           
+├──  data/                           
 │   ├── raw/                          
 │   │   └── ab_test_raw_data.csv
 │   └── processed/                    
 │       └── ab_test_clean_data.csv
-├── 🔧 src/                           
+├──  src/                           
 │   ├── experiment_design.py          
 │   ├── data_generator.py             
 │   ├── statistical_analysis.py       
 │   ├── visualization.py              
 │   └── main.py                       
-├── 📈 results/                       
+├──  results/                       
 │   ├── figures/                      
 │   │   ├── click_rates_comparison.png
 │   │   ├── confidence_intervals.png
 │   │   └── power_analysis.png
 │   ├── ab_test_report.md             
 │   └── statistical_results.json      
-└── 📖 README.md                      
+└──  README.md                      
 ```
 
 ## 📊 核心结果
@@ -223,8 +223,6 @@ def comprehensive_analysis(df):
 **实验成功验证了数据驱动的价值！红色按钮带来29.1%的相对提升，建议立即全面推广实施。**
 
 ---
-
-### ⭐ 如果这个项目对你有帮助，请给个星标支持！
 
 **📊 数据驱动决策 | 🎯 业务价值导向 | 🔬 科学实验方法**
 
