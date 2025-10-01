@@ -114,26 +114,30 @@ text
 
 ---
 
-## 📁 项目文件结构
-Project-AB-Testing/
-├── data/
-│ ├── raw/ab_test_raw_data.csv
-│ └── processed/ab_test_clean_data.csv
-├── src/
-│ ├── experiment_design.py
-│ ├── data_generator.py
-│ ├── statistical_analysis.py
-│ ├── visualization.py
-│ └── main.py
-├── results/
-│ ├── ab_test_report.md
-│ ├── statistical_results.json
-│ └── figures/
-│ ├── click_rates_comparison.png
-│ ├── confidence_intervals.png
-│ └── power_analysis.png
-└── README.md
+## 📁 项目结构
 
+```bash
+Project-AB-Testing/
+├──  data/                           
+│   ├── raw/                          
+│   │   └── ab_test_raw_data.csv
+│   └── processed/                    
+│       └── ab_test_clean_data.csv
+├──  src/                           
+│   ├── experiment_design.py          
+│   ├── data_generator.py             
+│   ├── statistical_analysis.py       
+│   ├── visualization.py              
+│   └── main.py                       
+├──  results/                       
+│   ├── figures/                      
+│   │   ├── click_rates_comparison.png
+│   │   ├── confidence_intervals.png
+│   │   └── power_analysis.png
+│   ├── ab_test_report.md             
+│   └── statistical_results.json      
+└──  README.md                      
+```
 ---
 
 ## 🔧 技术实现要点
